@@ -1,0 +1,17 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.heyzap.sdk.extensions.fyberSDK</id>
+    <versionNumber>1.0</versionNumber>
+
+    <platforms>
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libFyberSDK.jar</nativeLibrary>
+                <initializer>com.heyzap.sdk.extensions.fyberSDK.FyberSDKLib</initializer>
+            </applicationDeployment>
+        </platform>
+
+        <platform name="default">
+            <applicationDeployment />
+        </platform>
+    </platforms>
+</extension>
